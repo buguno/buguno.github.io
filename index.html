@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html land="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta property="og:title" content="buguno" />
-        <title>buguno</title>
-        <style>
-            * {
-                box-sizing: border-box;
+  <head>
+    <meta charset="UTF-8" />
+    <meta property="og:title" content="buguno" />
+    <title>buguno</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Roboto Mono", monospace;
+            font-size: 1em;
+            background-color: #1a1c20;
+            filter: invert(100%);
+        }
+        @keyframes intro {
+            0% {
+                opacity: 0;
             }
-            body {
-                font-family: "Roboto Mono", monospace;
-                font-size: 1em;
-                background-color: #1a1c20;
-                filter: invert(100%);
+            100% {
+                opacity: 1;
             }
-            @keyframes intro {
-                0% {
-                    opacity: 0;
-                }
-                100% {
-                    opacity: 1;
-                }
-            }
-            p {
-                font-size: 1em;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-        </style>
-    </head>
-    <p>Hello World</p>
+        }
+        p {
+            font-size: 1em;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    </style>
+  </head>
+  <body>
+      <div class="container main">
+        <div class="section">
+          <h2>NAME</h2>
+          <div>
+            <p>buguno - Bruno Bezerra</p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>DESCRIPTION</h2>
+          <div>
+            <p>Open source enthusiast.</p>
+          </div>
+        </div>
+      </div>
+  </body>
 </html>
